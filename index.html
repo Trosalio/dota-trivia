@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="description"
+          content="A page created to represent creator's profile, as well as practicing and sharpening creator's skills in web development region">
+    <meta name="keywords" content="Dota, Trivia">
+    <meta name="author" content="Thanapong Supalak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOTA TRIVIA</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+</head>
+<body>
+<!-- Header -->
+<header><h1>DOTA TRIVIA</h1></header>
+
+<!-- Start Menu Content -->
+<div id="start-content">
+    <p>Please Select a Mode</p>
+    <div class="mode" data-quota="10">10 Quiz</div>
+    <div class="mode" data-quota="20">20 Quiz</div>
+    <div class="mode" data-quota="30">30 Quiz</div>
+</div>
+
+<!-- Game Content -->
+<div id="game-content">
+    <div class="question">
+        <p id="question"/>
+        <img src=""/>
+        <p id="lore"/>
+    </div>
+    <div class="choice">
+        <ul id="choices-list">
+            <li class="selectable">
+                <img src=""/>
+                <p/>
+            </li>
+            <li class="selectable">
+                <img src=""/>
+                <p/>
+            </li>
+            <li class="selectable">
+                <img src=""/>
+                <p/>
+            </li>
+            <li class="selectable">
+                <img src=""/>
+                <p/>
+            </li>
+        </ul>
+    </div>
+    <div class="score">
+        <div id="score">Score: <span>?/?</span></div>
+        <div id="timer">Time Remaining: <span>?</span></div>
+    </div>
+</div>
+
+<!-- End Content -->
+<div id="end-content">
+    <p>Result</p>
+    <p id="result"/>
+    <p>Total Play Time</p>
+    <p id="playtime"/>
+    <div id="back">Back to Start Menu</div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>These media are extracted from the game <a href="https://en.wikipedia.org/wiki/Dota_2" title="Dota 2 Wikipedia" alt="Dota 2 Wikipedia" target="_blank">Dota 2.</a><br/>
+        The copyright for them are held by <a href="http://www.valvesoftware.com/" title="Valve Corporation" alt="Valve Corporation" target="_blank">Valve Corporation</a>, who created the software.</p>
+</footer>
+<script src="game.js"></script>
+</body>
+</html>

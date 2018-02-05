@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+html {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html *,
+html *:before,
+html *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+footer p::before {
+    font-size: 2em;
+    content: "© - ";
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+div#start-content,
+div#game-content,
+div#end-content {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+div#start-content {
+    display: block;
+}
+
+.mode, #back {
+    border: solid 5px cornsilk;
+    background-color: bisque;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mode:hover,
+#back:hover {
+    background-color: antiquewhite;
+}
+
+div#game-content {
+    display: none;
+}
+
+div#end-content {
+    display: none;
+}
+
+div.question {
+    padding: 20px;
+}
+
+div.question img {
+    display: block;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+ul#choices-list li.selectable {
+    font-size: 1.2em;
+    text-align: center;
+    border: solid 5px steelblue;
+    padding: 1em;
+    background-color: rgb(100, 149, 237);
+}
+
+ul#choices-list li.selectable:hover {
+    background: linear-gradient(rgba(100, 149, 237, 1), rgba(100, 149, 237, 0.6));
+}
+
+ul#choices-list li.selectable:active {
+    background: #9cd2ff none;
+}
+
+ul#choices-list li.not.selectable {
+    background-color: #6495ED;
+}
+
+ul.selected {
+    background-color: #9cd2ff;
+}
+
+ul.correct {
+    background-color: #37d561;
+}
+
+ul.incorrect {
+    background-color: #ff383d;
+}
+
+p#question {
+    font-size: 1.8em;
+    padding: 1em 0 1em 0.5em;
+    border-left: solid 5px aqua;
+    background-color: rgb(0, 128, 224);
+    color: white;
+}
+
+p#lore {
+    font-size: 1.4em;
+    padding: 0.5em 0 0.5em 2em;
+    font-style: italic;
+}
+
+div.score {
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+div.score > div {
+    font-size: 2em;
+    padding: 1em;
+    border: solid 2px aqua;
+}
+
+div.score > div:last-child {
+    text-align: right;
+}
+

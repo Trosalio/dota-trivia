@@ -1,0 +1,664 @@
+[
+    {
+      "problem": {
+        "question": "Which hero does not belong in Strength category?"
+      },
+      "choices": [
+        {
+          "text": "Chaos Knight",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/f/fe/Chaos_Knight_icon.png"
+        },
+        {
+          "text": "Centaur Warrunner",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/ed/Centaur_Warrunner_icon.png"
+        },
+        {
+          "text": "Doom",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/40/Doom_icon.png"
+        },
+        {
+          "text": "Ogre Magi",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/e0/Ogre_Magi_icon.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero does not have any stun spells?"
+      },
+      "choices": [
+        {
+          "text": "Dark Willow",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/3/3c/Dark_Willow_icon.png"
+        },
+        {
+          "text": "Keeper of the Light",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/b9/Keeper_of_the_Light_icon.png"
+        },
+        {
+          "text": "Leshrac",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/2/26/Leshrac_icon.png"
+        },
+        {
+          "text": "Lich",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/bb/Lich_icon.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the highest base attack range?"
+      },
+      "choices": [
+        {
+          "text": "Ancient Apparition",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/6/67/Ancient_Apparition_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Lone Druid",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/5d/Lone_Druid_icon.png"
+        },
+        {
+          "text": "Monkey King",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/7b/Monkey_King_icon.png"
+        },
+        {
+          "text": "Sniper",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/51/Sniper_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the lowest base attack range?"
+      },
+      "choices": [
+        {
+          "text": "Ember Spirit",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/9/91/Ember_Spirit_icon.png"
+        },
+        {
+          "text": "Luna",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/7d/Luna_icon.png"
+        },
+        {
+          "text": "Monkey King",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/7b/Monkey_King_icon.png"
+        },
+        {
+          "text": "Templar Assassin",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/9/9c/Templar_Assassin_icon.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the highest turn rate?"
+      },
+      "choices": [
+        {
+          "text": "Jakiro",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/2/2f/Jakiro_icon.png"
+        },
+        {
+          "text": "Pudge",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/c/c0/Pudge_icon.png"
+        },
+        {
+          "text": "Shadow Fiend",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/3/36/Shadow_Fiend_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Zeus",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/3/3f/Zeus_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the lowest turn rate?"
+      },
+      "choices": [
+        {
+          "text": "Jakiro",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/2/2f/Jakiro_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Pudge",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/c/c0/Pudge_icon.png"
+        },
+        {
+          "text": "Shadow Fiend",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/3/36/Shadow_Fiend_icon.png"
+        },
+        {
+          "text": "Zeus",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/3/3f/Zeus_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the highest Strength growth per level?"
+      },
+      "choices": [
+        {
+          "text": "Brew Master",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1e/Brewmaster_icon.png"
+        },
+        {
+          "text": "Ogre Magi",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/e0/Ogre_Magi_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Sven",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1b/Sven_icon.png"
+        },
+        {
+          "text": "Tiny",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/55/Tiny_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the highest base Strength attribute?"
+      },
+      "choices": [
+        {
+          "text": "Brew Master",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1e/Brewmaster_icon.png"
+        },
+        {
+          "text": "Ogre Magi",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/e0/Ogre_Magi_icon.png"
+        },
+        {
+          "text": "Sven",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1b/Sven_icon.png"
+        },
+        {
+          "text": "Tiny",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/55/Tiny_icon.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has the highest base attack time?"
+      },
+      "choices": [
+        {
+          "text": "Brew Master",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1e/Brewmaster_icon.png"
+        },
+        {
+          "text": "Ogre Magi",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/e0/Ogre_Magi_icon.png"
+        },
+        {
+          "text": "Sven",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1b/Sven_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Tiny",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/55/Tiny_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What is the base movement speed for Broodmother?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/d/df/Broodmother_icon.png"
+      },
+      "choices": [
+        {
+          "text": 270,
+          "isCorrect": true
+        },
+        {
+          "text": 285
+        },
+        {
+          "text": 290
+        },
+        {
+          "text": 315
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What is the base movement speed for Enchantress?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/41/Enchantress_icon.png"
+      },
+      "choices": [
+        {
+          "text": 315
+        },
+        {
+          "text": 320
+        },
+        {
+          "text": 335
+        },
+        {
+          "text": 340,
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What is the base movement speed for Pangolier?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/4e/Pangolier_icon.png"
+      },
+      "choices": [
+        {
+          "text": 295
+        },
+        {
+          "text": 305,
+          "isCorrect": true
+        },
+        {
+          "text": 315
+        },
+        {
+          "text": 320
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has this ability?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/c/c2/Heartpiercer_icon.png"
+      },
+      "choices": [
+        {
+          "text": "Chaos Knight",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/f/fe/Chaos_Knight_icon.png"
+        },
+        {
+          "text": "Lion",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/b8/Lion_icon.png"
+        },
+        {
+          "text": "Dragon Knight",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/59/Dragon_Knight_icon.png"
+        },
+        {
+          "text": "Pangolier",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/4e/Pangolier_icon.png",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has this ability?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/50/Nature%27s_Attendants_icon.png"
+      },
+      "choices": [
+        {
+          "text": "Chen",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/6/61/Chen_icon.png"
+        },
+        {
+          "text": "Enchantress",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/41/Enchantress_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Necrophos",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/a/a6/Necrophos_icon.png"
+        },
+        {
+          "text": "Pugna",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/c/cd/Pugna_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which hero has this ability?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/7d/Empower_icon.png"
+      },
+      "choices": [
+        {
+          "text": "Magnus",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/ba/Magnus_icon.png",
+          "isCorrect": true
+        },
+        {
+          "text": "Slardar",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/7e/Slardar_icon.png"
+        },
+        {
+          "text": "Spirit Breaker",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/d/df/Spirit_Breaker_icon.png"
+        },
+        {
+          "text": "Storm Spirit",
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/13/Storm_Spirit_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which is the cooldown of Requiem of Souls?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/a/a8/Requiem_of_Souls_icon.png"
+      },
+      "choices": [
+        {
+          "text": "80"
+        },
+        {
+          "text": "100"
+        },
+        {
+          "text": "100/90/80"
+        },
+        {
+          "text": "120/110/100",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which is the cooldown of Spell Steal",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/f/f4/Spell_Steal_icon.png"
+      },
+      "choices": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "5"
+        },
+        {
+          "text": "20/18/16",
+          "isCorrect": true
+        },
+        {
+          "text": "22/18/14"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which is the cooldown of Drunken Haze?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/44/Drunken_Haze_icon.png"
+      },
+      "choices": [
+        {
+          "text": "8"
+        },
+        {
+          "text": "12"
+        },
+        {
+          "text": "8/7/6/5"
+        },
+        {
+          "text": "11/9/7/5",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which is the cooldown of Rolling Thunder?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/17/Rolling_Thunder_icon.png"
+      },
+      "choices": [
+        {
+          "text": "40"
+        },
+        {
+          "text": "60"
+        },
+        {
+          "text": "50/45/40"
+        },
+        {
+          "text": "70/65/60",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which is the cooldown of Overwhelming Odds?",
+        "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/4/49/Overwhelming_Odds_icon.png"
+      },
+      "choices": [
+        {
+          "text": "11"
+        },
+        {
+          "text": "15",
+          "isCorrect": true
+        },
+        {
+          "text": "17/15/13/11"
+        },
+        {
+          "text": "15/14/13/12"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "Which one is not a Power-Up Rune"
+      },
+      "choices": [
+        {
+          "text": "Arcane"
+        },
+        {
+          "text": "Bounty",
+          "isCorrect": true
+        },
+        {
+          "text": "Double Damage"
+        },
+        {
+          "text": "Illusion"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What is the lowest movement speed cap in a normal case?"
+      },
+      "choices": [
+        {
+          "text": "0"
+        },
+        {
+          "text": "100",
+          "isCorrect": true
+        },
+        {
+          "text": "128"
+        },
+        {
+          "text": "150"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What is the highest movement speed cap in a normal case?"
+      },
+      "choices": [
+        {
+          "text": "500"
+        },
+        {
+          "text": "522"
+        },
+        {
+          "text": "550",
+          "isCorrect": true
+        },
+        {
+          "text": "650"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What time do runes spawn?"
+      },
+      "choices": [
+        {
+          "text": "Every 30 seconds"
+        },
+        {
+          "text": "Every 1 minute"
+        },
+        {
+          "text": "Every 2 minutes",
+          "isCorrect": true
+        },
+        {
+          "text": "Every 4 minutes"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What time do lane creeps spawn?"
+      },
+      "choices": [
+        {
+          "text": "Every 30 seconds",
+          "isCorrect": true
+        },
+        {
+          "text": "Every 1 minute"
+        },
+        {
+          "text": "Every 2 minutes"
+        },
+        {
+          "text": "Every 4 minutes"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What time do neutral creeps spawn?"
+      },
+      "choices": [
+        {
+          "text": "Every 30 seconds"
+        },
+        {
+          "text": "Every 1 minute",
+          "isCorrect": true
+        },
+        {
+          "text": "Every 2 minutes"
+        },
+        {
+          "text": "Every 4 minutes"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "How long does it take to change to each day/night cycle?"
+      },
+      "choices": [
+        {
+          "text": "Every 30 seconds"
+        },
+        {
+          "text": "Every 1 minute"
+        },
+        {
+          "text": "Every 2 minutes"
+        },
+        {
+          "text": "Every 4 minutes",
+		  "isCorrect": true
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What item has the following lore?",
+        "lore": "A dangerous weapon pilfered from an inverse dimension."
+      },
+      "choices": [
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/3/3b/Abyssal_Blade_icon.png"
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/b1/Divine_Rapier_icon.png"
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/bc/Nullifier_icon.png",
+          "isCorrect": true
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/9/90/Null_Talisman_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What item has the following lore?",
+        "lore": "So powerful, it cannot have a single owner."
+      },
+      "choices": [
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/5a/Bloodstone_icon.png"
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/b/b1/Divine_Rapier_icon.png",
+          "isCorrect": true
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/ed/Dust_of_Appearance_icon.png"
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1d/Gem_of_True_Sight_icon.png"
+        }
+      ]
+    },
+    {
+      "problem": {
+        "question": "What item has the following lore?",
+        "lore": "A lesser wand that grows in power the longer it is used, it brings magic to the fingertips of the user."
+      },
+      "choices": [
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/70/Dagon_5_icon.png",
+          "isCorrect": true
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/5/59/Magic_Stick_icon.png"
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/74/Magic_Wand_icon.png"
+        },
+        {
+          "image": "https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/8/80/Siltbreaker_Wand_of_the_Brine_icon.png"
+        }
+      ]
+    }
+ ]
