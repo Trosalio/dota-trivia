@@ -8,20 +8,15 @@ let correctGuess, playtime, timer;
 correctGuess = playtime = questionCounter = questionQuota = timer = 0;
 
 $(document).ready(function () {
-    console.log("page elements loaded!");
     $(".mode").on('click', function () {
         questionQuota = $(this).data("quota");
-        console.log("Quota: " + questionQuota);
         $("#start-content").hide();
         $("#game-content").show();
-        console.log("Fetching JSON");
         $.ajax({
             method: "GET",
             url: "dota_trivia.json",
         }).done(function (response) {
             fetchQuestions(response, questionQuota);
-            console.log("Fetched & Scrambled Questions: ");
-            console.log(questionArray);
             gameInterval = setInterval(setQuizAndConditions, 100);
         });
     });
@@ -29,15 +24,12 @@ $(document).ready(function () {
     $(".selectable").on("click", function () {
         if ($(".selectable").index(this) === correctAnswer) {
             correctGuess++;
-            console.log("right!");
         } else {
-            console.log("wrong!")
         }
         guessCondition = true;
     });
 
     $("#back").on('click', function () {
-        console.log("I was clicked!");
         $("#end-content").hide();
         resetVariables();
         $("#start-content").show();
@@ -89,7 +81,6 @@ function setQuizAndConditions() {
     $("#score").find("span").text(`${correctGuess}/${questionQuota}`);
     $("#timer").find("span").text(Math.ceil(timer/10));
     $("#playtime").find("span").text(Math.floor(playtime));
-    console.log(timer, guessCondition, correctGuess);
 }
 
 function setQuestion(questionObject) {
