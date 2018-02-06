@@ -1,14 +1,13 @@
-let questionArray = [];
-let correctAnswer;
-let guessCondition = false;
-let gameInterval;
-let questionCounter, questionQuota;
-let correctGuess, playtime, timer;
+var questionArray = [];
+var correctAnswer;
+var guessCondition = false;
+var gameInterval;
+var questionCounter, questionQuota;
+var correctGuess, playtime, timer;
 correctGuess = playtime = questionCounter = questionQuota = timer = 0;
 
 $(document).ready(function () {
     $(".mode").on('click', function () {
-        resetVariables();
         questionQuota = $(this).data("quota");
         $("#start-content").hide();
         $("#game-content").show();
@@ -31,6 +30,7 @@ $(document).ready(function () {
 
     $("#back").on('click', function () {
         $("#end-content").hide();
+        resetVariables();
         $("#start-content").show();
     })
 });
