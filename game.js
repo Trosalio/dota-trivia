@@ -33,18 +33,31 @@ $(document).ready(function () {
     })
 });
 
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+    }
+
 function fetchQuestions(jsonData, quota) {
+//     questionArray = [];
+//     let takenQuestion = [];
+//     while (takenQuestion.length < quota) {
+//         let randomNumber = Math.floor(Math.random() * jsonData.length);
+//         let questionObject = {};
+//         if ($.inArray(randomNumber, takenQuestion) === -1) {
+//             takenQuestion.push(randomNumber);
+//             questionObject.problem = jsonData[randomNumber].problem;
+//             questionObject.choices = scrambleChoices(jsonData[randomNumber].choices);
+//             questionArray.push(questionObject);
+//         }
+//     }
     questionArray = [];
-    let takenQuestion = [];
-    while (takenQuestion.length < quota) {
-        let randomNumber = Math.floor(Math.random() * jsonData.length);
-        let questionObject = {};
-        if ($.inArray(randomNumber, takenQuestion) === -1) {
-            takenQuestion.push(randomNumber);
-            questionObject.problem = jsonData[randomNumber].problem;
-            questionObject.choices = scrambleChoices(jsonData[randomNumber].choices);
-            questionArray.push(questionObject);
-        }
+    shuffle(jsonData);
+    for(let i = 0; i < quota; i++){
+        questionArray.push(jsonData[i]);
     }
 }
 
