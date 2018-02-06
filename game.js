@@ -2,9 +2,8 @@ let questionArray = [];
 let correctAnswer;
 let guessCondition = false;
 let gameInterval;
-let questionCounter, questionQuota;
-let correctGuess, playtime, timer;
-correctGuess = playtime = questionCounter = questionQuota = timer = 0;
+let correctGuess, playtime, timer, questionQuota;
+correctGuess = playtime = timer = questionQuota = 0;
 
 $(document).ready(function () {
     $(".mode").on('click', function () {
@@ -61,8 +60,8 @@ function scrambleChoices(choices) {
 
 function setQuizAndConditions() {
     if (timer <= 0 || (guessCondition) === true) {
-        runQuiz();
         resetCondition();
+        runQuiz();
     } else {
         timer -= 1;
         playtime += 1;
@@ -77,7 +76,6 @@ function runQuiz() {
         setQuestion(questionArray.pop());
         console.log(questionArray);
         console.log("Arr Length: " + questionArray.length);
-        questionCounter++;
     } else {
         showResult();
     }
@@ -141,7 +139,6 @@ function showResult() {
 
 function resetVariables() {
     correctGuess = playtime = questionCounter = questionQuota = 0;
-    questionArray.length = 0;
     resetCondition();
 }
 
