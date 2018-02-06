@@ -1,5 +1,4 @@
 let questionArray = [];
-let testArray = [];
 let correctAnswer;
 let guessCondition = false;
 let gameInterval;
@@ -142,7 +141,7 @@ function showResult() {
 
 function resetVariables() {
     correctGuess = playtime = questionCounter = questionQuota = 0;
-    testArray = [];
+    questionArray = [];
     resetCondition();
 }
 
