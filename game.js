@@ -1,9 +1,9 @@
-var questionArray = [];
-var correctAnswer;
-var guessCondition = false;
-var gameInterval;
-var questionCounter, questionQuota;
-var correctGuess, playtime, timer;
+let questionArray = [];
+let correctAnswer;
+let guessCondition = false;
+let gameInterval;
+let questionCounter, questionQuota;
+let correctGuess, playtime, timer;
 correctGuess = playtime = questionCounter = questionQuota = timer = 0;
 
 $(document).ready(function () {
@@ -61,15 +61,6 @@ function scrambleChoices(choices) {
     return choicesArray;
 }
 
-function runQuiz() {
-    if (questionCounter < questionQuota) {
-        setQuestion(questionArray[questionCounter]);
-        questionCounter++;
-    } else {
-        showResult();
-    }
-}
-
 function setQuizAndConditions() {
     if (timer <= 0 || (guessCondition) === true) {
         runQuiz();
@@ -81,6 +72,15 @@ function setQuizAndConditions() {
     $("#score").find("span").text(`${correctGuess}/${questionQuota}`);
     $("#timer").find("span").text(Math.ceil(timer/10));
     $("#playtime").find("span").text(Math.floor(playtime));
+}
+
+function runQuiz() {
+    if (questionArray.length !== 0) {
+        setQuestion(questionArray.pop());
+        questionCounter++;
+    } else {
+        showResult();
+    }
 }
 
 function setQuestion(questionObject) {
