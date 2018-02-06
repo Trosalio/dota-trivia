@@ -24,14 +24,16 @@ $(document).ready(function () {
         if ($(".selectable").index(this) === correctAnswer) {
             correctGuess++;
         } else {
+            guessCondition = true;
         }
-        guessCondition = true;
     });
 
     $("#back").on('click', function () {
+        console.log(questionArray);
         $("#end-content").hide();
         resetVariables();
         $("#start-content").show();
+        console.log(questionArray);
     })
 });
 
@@ -83,7 +85,6 @@ function setQuizAndConditions() {
 }
 
 function setQuestion(questionObject) {
-    <!-- Set question -->
     let problemObject = questionObject.problem;
 
     let questionInProblem = problemObject.question;
@@ -105,7 +106,7 @@ function setQuestion(questionObject) {
         hideP($(".question  p#lore"));
     }
 
-    <!-- Set choices -->
+    //Set choices
     let choicesObject = questionObject.choices;
     let i = 0;
     while (i < choicesObject.length) {
