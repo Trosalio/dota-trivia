@@ -34,6 +34,7 @@ $(document).ready(function () {
 });
 
 function fetchQuestions(jsonData, quota) {
+    questionArray = [];
     let takenQuestion = [];
     while (takenQuestion.length < quota) {
         let randomNumber = Math.floor(Math.random() * jsonData.length);
