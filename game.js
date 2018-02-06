@@ -23,9 +23,8 @@ $(document).ready(function () {
     $(".selectable").on("click", function () {
         if ($(".selectable").index(this) === correctAnswer) {
             correctGuess++;
-        } else {
-            guessCondition = true;
         }
+        guessCondition = true;
     });
 
     $("#back").on('click', function () {
@@ -142,7 +141,7 @@ function showResult() {
 
 function resetVariables() {
     correctGuess = playtime = questionCounter = questionQuota = 0;
-    questionArray = [];
+    questionArray.length = 0;
     resetCondition();
 }
 
