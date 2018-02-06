@@ -28,11 +28,9 @@ $(document).ready(function () {
     });
 
     $("#back").on('click', function () {
-        console.log(questionArray);
         $("#end-content").hide();
         resetVariables();
         $("#start-content").show();
-        console.log(questionArray);
     })
 });
 
@@ -77,6 +75,8 @@ function setQuizAndConditions() {
 function runQuiz() {
     if (questionArray.length !== 0) {
         setQuestion(questionArray.pop());
+        console.log(questionArray);
+        console.log("Arr Length: " + questionArray.length);
         questionCounter++;
     } else {
         showResult();
